@@ -24,8 +24,8 @@ p {
 
 header#cabecalho img#icone {
 	position: absolute;
-	left: 780px;
-	top: 70px
+	left: 830px;
+	top: 50px
 }
 
 header#cabecalho {
@@ -92,7 +92,7 @@ nav#menu ul {
 	text-transform: uppercase;
 	position: absolute;
 	top: -20px;
-	left: 300px;
+	left: 780px;
 
 }
 
@@ -125,23 +125,48 @@ nav#menu a:hover {
 
 section#corpo {
 	display: block;
-	width: 500px;
+	width: 520px;
 	float: left;
 	border-right: 1px solid #606060;
-	padding-right: 20px;
+	padding-right: 15px;
 }
 
 table#tabelaspec {
-	border: 1px solid #606060;
-	border-spacing: 0px;
-	margin-left: auto;
-	margin-right: auto;
+   	border: 1px solid #606060;
+  	border-spacing: 0px;
+   	margin-left: auto;
+   	margin-right: auto;
 }
 
 table#tabelaspec td {
 	border: 1px solid #606060;
 	padding: 10px;
 	text-align: center;
+	vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+	color: #ffffff;
+	background-color: #606060;
+	font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+	background-color: #cecece;
+}
+
+table#tabelaspec caption{
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;
 }
 
 aside#lateral {
